@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="author" content="Devika Sunilkumar">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="google-site-verification" content="IZ7Sm227j_9N0Sy_JmwOvn1_OAm_O2rHr2833ZV0Fro">
+        <meta name="application-name" content="Portfolio Website">
+        <meta name="language" content="English">
+        <title>Devika Sunilkumar</title>
+        <link rel="icon" type="image/x-icon" href="https://i.postimg.cc/mDsx1jmq/Pro-pic1.jpg">
+        <link rel="stylesheet" href="css/main.css" />
+        <script src="https://kit.fontawesome.com/66aa7c98b3.js" crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" 
+        crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <!--Page Loader -->
+        <div class="loader" id="loader"></div>
+        <div id="content">
+            <!-- Header Design -->
+            <header class="header">
+                <nav class="navbar">
+                    <div class="navbar-container container">
+                        <div></div>
+                        <input type="checkbox" id="checkbox" />
+                        <label for="checkbox" class="toggle">
+                            <div class="bars" id="bar1"></div>
+                            <div class="bars" id="bar2"></div>
+                            <div class="bars" id="bar3"></div>
+                        </label>
+                        <img id="portfolio" src="https://i.postimg.cc/4x1grv3p/portfolio-logo.png" alt="portfolio-logo">
+                        <ul class="menu-items">
+                            <li><a href="#home-page">Home</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#resume">Resume</a></li>
+                            <li><a href="#my-works">Project</a></li>
+                            <li><a href="#contact-me">Contact</a></li>
+                            <label class="switch">
+                                <span class="sun">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                        <g fill="#F4CA25">
+                                            <circle r="5" cy="12" cx="12"></circle>
+                                            <path d="m21 13h-1a1 1 0 0 1 0-2h1a1 1 0 0 1 0 2zm-17 0h-1a1 1 0 0 1 0-2h1a1 1 0 0 1 0 2zm13.66-5.66a1 1 0 0 1 -.66-.29 1 1 0 0 1 0-1.41l.71-.71a1 1 0 1 1 1.41 1.41l-.71.71a1 1 0 0 1 -.75.29zm-12.02 12.02a1 1 0 0 1 -.71-.29 1 1 0 0 1 0-1.41l.71-.66a1 1 0 0 1 1.41 1.41l-.71.71a1 1 0 0 1 -.7.24zm6.36-14.36a1 1 0 0 1 -1-1v-1a1 1 0 0 1 2 0v1a1 1 0 0 1 -1 1zm0 17a1 1 0 0 1 -1-1v-1a1 1 0 0 1 2 0v1a1 1 0 0 1 -1 1zm-5.66-14.66a1 1 0 0 1 -.7-.29l-.71-.71a1 1 0 0 1 1.41-1.41l.71.71a1 1 0 0 1 0 1.41 1 1 0 0 1 -.71.29zm12.02 12.02a1 1 0 0 1 -.7-.29l-.66-.71a1 1 0 0 1 1.36-1.36l.71.71a1 1 0 0 1 0 1.41 1 1 0 0 1 -.71.24z"></path>
+                                        </g>
+                                    </svg>
+                                </span>
+                                <span class="moon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                                        <path d="m223.5 32c-123.5 0-223.5 100.3-223.5 224s100 224 223.5 224c60.6 0 115.5-24.2 155.8-63.4 5-4.9 6.3-12.5 3.1-18.7s-10.1-9.7-17-8.5c-9.8 1.7-19.8 2.6-30.1 2.6-96.9 0-175.5-78.8-175.5-176 0-65.8 36-123.1 89.3-153.3 6.1-3.5 9.2-10.5 7.7-17.3s-7.3-11.9-14.3-12.5c-6.3-.5-12.6-.8-19-.8z"></path>
+                                    </svg>
+                                </span>
+                                <input type="checkbox" class="input" id="theme" checked>
+                                <span class="slider"></span>
+                            </label>
+                        </ul>
+                    </div>
+                </nav>
+                <img id="portfolio-2" src="https://i.postimg.cc/4x1grv3p/portfolio-logo.png" alt="portfolio-logo">
+                <div class="home-content" id="home-page">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" class="svg">
+                        <path fill="#8CD5FE" fill-opacity="1" d="M0,224L48,224C96,224,192,224,288,202.7C384,181,480,139,576,154.7C672,171,768,245,864,240C960,235,1056,149,1152,138.7C1248,128,1344,192,1392,224L1440,256L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path>
+                    </svg>
+                    <div class="name">
+                        <p>Hello! My name is</p>
+                        <h1>Devika Sunilkumar</h1>
+                        <p>Junior ASP.NET Web Developer</p>
+                        <br>
+                        <a href="CV.html">
+                            <button class="botao">
+                                <svg class="mysvg" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" height="24px" width="24px">
+                                    <g stroke-width="0" id="SVGRepo_bgCarrier"></g>
+                                    <g stroke-linejoin="round" stroke-linecap="round" id="SVGRepo_tracerCarrier"></g>
+                                    <g id="SVGRepo_iconCarrier">
+                                        <g id="Interface / Download">
+                                            <path stroke-linejoin="round" stroke-linecap="round" stroke-width="2" stroke="#f1f1f1" d="M6 21H18M12 3V17M12 17L17 12M12 17L7 12" id="Vector"></path>
+                                        </g>
+                                    </g>
+                                </svg>
+                                <span class="texto">Download CV</span>
+                            </button>
+                        </a>
+                    </div>
+                    <div class="angle-down-icon">
+                        <a href="#about"><i class="fas fa-angle-down"></i></a>
+                    </div>
+                </div>
+            </header>
+
+            <!-- About Section -->
+            <section class="about-me" id="about">
+                <div class="container">
+                    <div class="about-content">
+                        <div class="left-content">
+                            <img id="picture1" src="https://i.postimg.cc/sxb416cG/Picture1.png" alt="Decoration">
+                            <div>
+                                <h1 class="about-heading">About Me</h1>
+                            </div>
+                            <!--<img class="picture2" src="https://i.postimg.cc/q7mb4G9y/Picture2.png" alt="Decoration" />-->
+                            <img class="img" src="https://i.postimg.cc/mDsx1jmq/Pro-pic1.jpg" alt="image" />
+                            <br><br>
+                            <p>I am 22 year old, I completed my bachelor's degree in <b>BCA</b> at St. Mary’s College, Thrissur under <b>Calicut University</b>. Currently, I am <b>pursuing an MCA</b>. I love crafting dynamic web applications using ASP.NET and C#. I am passionate about learning new things; the more, the better.</p>
+                            <div class="work-arrow">
+                                <p>
+                                    <a href="#my-works">Check out my projects <i class="fas fa-arrow-down"></i></a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="skills">
+                            <div class="right-content">
+                                <div>
+                                    <h1 class="skills-heading">My Skills</h1>
+                                </div>
+                                <div class="skills-bar">
+                                    <div class="bar">
+                                        <div class="info">
+                                            <span>HTML</span>
+                                        </div>
+                                        <div class="progress-line"><span class="html"></span></div>
+                                        <div class="bar">
+                                            <div class="info">
+                                                <span>C# Programming</span>
+                                            </div>
+                                            <div class="progress-line"><span class="c"></span></div>
+                                            <div class="bar">
+                                                <div class="info">
+                                                    <span>OOP Concept</span>
+                                                </div>
+                                                <div class="progress-line"><span class="oop"></span></div>
+                                                <div class="bar">
+                                                    <div class="info">
+                                                        <span>MS SQL Server</span>
+                                                    </div>
+                                                    <div class="progress-line"><span class="sql"></span></div>
+                                                    <div class="bar">
+                                                        <div class="info">
+                                                            <span>ASP.NET</span>
+                                                        </div>
+                                                        <div class="progress-line"><span class="asp"></span></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="work-arrow-2">
+                                    <p>
+                                        <a href="#my-works">Check out my projects <i class="fas fa-arrow-down"></i></a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <img id="picture2" src="https://i.postimg.cc/mk372LtJ/Picture6.png" alt="Decoration">
+            </section>
+
+            <!-- Resume Section -->
+            <section id="resume" class="resume section">
+                <div class="resumes">
+                    <div class="container section-title" data-aos="fade-up">
+                        <h1 class="resume-heading">Resume</h1>
+                    </div>
+                    <div class="container">
+                        <div class="row resume-content">
+                            <div class="col-lg-6 left-side" data-aos="fade-up" data-aos-delay="100">
+                                <h3 class="resume-title">Sumary</h3>
+                                <div class="resume-item pb-0">
+                                    <h4>DEVIKA SUNILKUMAR</h4>
+                                    <p><em>As a fresher, I have practical experience in .NET development gained through internships and projects.</em></p><br>
+                                    <ul>
+                                        <li>Thrissur, Kerala, India</li>
+                                        <li>12 March 2002</li>
+                                    </ul>
+                                </div>
+                                <h3 class="resume-title">Education</h3>
+                                <div class="resume-item">
+                                    <h4>Master of Computer Applications - MCA</h4>
+                                    <h5>University of Calicut</h5>
+                                    <p><em>Dr. John Matthai, Thrissur</em></p>
+                                    <p>2024 - PURSUING</p>
+                                </div>
+                                <div class="resume-item">
+                                    <h4>Bachelor of  Computer Applications - BCA</h4>
+                                    <h5>University of Calicut</h5>
+                                    <p><em>St. Mary's College, Thrissur</em></p>
+                                    <p>NOV 2020 - APR 2023</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 right-side" data-aos="fade-up" data-aos-delay="200">
+                                <h3 class="resume-title">Professional Experience</h3>
+                                <div class="resume-item">
+                                    <h4>ASP.Net Web Developer Trainee</h4>
+                                    <h5>FEB 2024 - APR 2024</h5>
+                                    <p><em>Smart HRMS solution, Kochi</em></p><br>
+                                    <ul>
+                                        <li>Collaborated with team members to troubleshoot and resolve technical issues.</li>
+                                        <li>Testing and debugging programs, writing effective and scalable code.</li>
+                                    </ul>
+                                </div>
+                                <div class="resume-item">
+                                    <h4>ASP.Net Web Developer Program</h4>
+                                    <h5>APR 2023 - NOV 2023</h5>
+                                    <p><em>Aitrich Technologies Pvt Ltd, Thrissur</em></p><br>
+                                    <ul>
+                                        <li>Developed and maintained web applications using ASP.NET and C#.</li>
+                                        <li>Assisted in designing and implementing database solutions using SQL Server.</li>
+                                        <li>Designed and developed interactive user interfaces using HTML, CSS, and JS.</li>
+                                        <li>Participated in code reviews and contributed to enhancing application performance.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Project Section -->
+            <section id="my-works">
+                <img id="picture3" src="https://i.postimg.cc/d3GjkRSW/Picture4.png" alt="Decoration">
+                <div class="Projects">
+                    <div class="proj-heading">
+                        <h1>Projects</h1>
+                    </div>
+                    <div class="portfolio-content container">
+                        <div class="proj-1">
+                            <div class="proj1-details">
+                                <h2>Online Shopping - E_COMMERCE Website</h2>
+                                <p>Build Using <b>Asp .Net Web Api</b></p>
+                                <p>Data Base - <b>MS SQL Server</b></p>
+                                <button>
+                                    <a href="https://github.com/Aitrich-Academy/MainProject18-11-2023.git" target="blank">
+                                        View source <i class="fas fa-external-link-alt"></i></a>
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="proj-2">
+                            <img src="https://i.postimg.cc/sxhktdDg/Indian-Platter.png">
+                            <div class="proj2-details">
+                                <h2>IndianPlatter - Restaurant Website</h2>
+                                <p>Build Using <b>Asp .Net Three Tier</b></p>
+                                <p>Data Base - <b>MS SQL Server</b></p>
+                                <button><a href="https://github.com/Aitrich-Academy/ASP-Net-3tier-09-10-2023.git" target="blank">
+                                    View source <i class="fas fa-external-link-alt"></i></a>
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="proj-3">
+                            <img src="https://i.postimg.cc/6qnPMrY7/Vadhyam.jpg">
+                            <div class="proj3-details">
+                                <h2>Vadhyam-App</h2>
+                                <p>Build Using <b>Python</b></p>
+                                <p>Data Base - <b>SQLALCHEMY</b></p>
+                            </div>
+                        </div>
+                        <div class="more-work">
+                            <p>More</p>
+                            <a href="https://github.com/thisisdevikasunilkumar" target="blank"><i class="fab fa-github"></i> Github</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Contact Section -->
+            <section id="contact-me">
+                <div class="contact">
+                    <div class="container">
+                        <div class="contact-content">
+                            <img id="picture4" src="https://i.postimg.cc/xTRLwdrb/Picture7.png" alt="Decoration" />
+                            <h1>Contact Me</h1>
+                            <p class="mail">
+                                Get in touch with me <i class="fas fa-arrow-right"></i><a href="https://mail.google.com/mail/?view=cm&fs=1&to=devikasunilkumar20@gmail.com" target="blank">devikasunilkumar20@gmail.com</a>
+                            </p>
+                            <p class="links">Or find me on:</p>
+                            <ul id="ul" class="example-2">
+                                <li class="icon-content">
+                                    <a href="https://www.linkedin.com/in/devika20/" aria-label="LinkedIn" data-social="linkedin">
+                                        <div class="filled"></div>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" 
+                                             class="bi bi-linkedin" viewBox="0 0 16 16" xml:space="preserve">
+                                            <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z" fill="currentColor"></path>
+                                        </svg>
+                                    </a>
+                                    <div class="tooltip">LinkedIn</div>
+                                </li>
+    <!--                            <li class="icon-content">
+                                    <a href="https://youtube.com/" aria-label="Youtube" data-social="youtube">
+                                        <div class="filled"></div>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" 
+                                             class="bi bi-youtube" viewBox="0 0 16 16" xml:space="preserve" > 
+                                            <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.01 2.01 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.01 2.01 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31 31 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.01 2.01 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A100 100 0 0 1 7.858 2zM6.4 5.209v4.818l4.157-2.408z" fill="currentColor"></path>
+                                        </svg>
+                                    </a>
+                                    <div class="tooltip">Youtube</div>
+                                </li>-->
+                                <li class="icon-content">
+                                    <a href="https://github.com/thisisdevikasunilkumar" aria-label="GitHub" data-social="github">
+                                        <div class="filled"></div>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                             class="bi bi-github" viewBox="0 0 16 16" xml:space="preserve">
+                                            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8" fill="currentColor"></path>
+                                        </svg>
+                                    </a>
+                                    <div class="tooltip">GitHub</div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Footer Design -->
+            <footer class="footer">
+                <div class="footer">
+                    <div class="footer-text">
+                        <div class="con-like">
+                            <input class="like" type="checkbox" title="like">
+                            <div class="checkmark">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="outline" viewBox="0 0 24 24">
+                                    <path d="M17.5,1.917a6.4,6.4,0,0,0-5.5,3.3,6.4,6.4,0,0,0-5.5-3.3A6.8,6.8,0,0,0,0,8.967c0,4.547,4.786,9.513,8.8,12.88a4.974,4.974,0,0,0,6.4,0C19.214,18.48,24,13.514,24,8.967A6.8,6.8,0,0,0,17.5,1.917Zm-3.585,18.4a2.973,2.973,0,0,1-3.83,0C4.947,16.006,2,11.87,2,8.967a4.8,4.8,0,0,1,4.5-5.05A4.8,4.8,0,0,1,11,8.967a1,1,0,0,0,2,0,4.8,4.8,0,0,1,4.5-5.05A4.8,4.8,0,0,1,22,8.967C22,11.87,19.053,16.006,13.915,20.313Z"></path>
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" class="filled" viewBox="0 0 24 24">
+                                    <path d="M17.5,1.917a6.4,6.4,0,0,0-5.5,3.3,6.4,6.4,0,0,0-5.5-3.3A6.8,6.8,0,0,0,0,8.967c0,4.547,4.786,9.513,8.8,12.88a4.974,4.974,0,0,0,6.4,0C19.214,18.48,24,13.514,24,8.967A6.8,6.8,0,0,0,17.5,1.917Z"></path>
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" height="100" width="100" class="celebrate">
+                                    <polygon class="poly" points="10,10 20,20"></polygon>
+                                    <polygon class="poly" points="10,50 20,50"></polygon>
+                                    <polygon class="poly" points="20,80 30,70"></polygon>
+                                    <polygon class="poly" points="90,10 80,20"></polygon>
+                                    <polygon class="poly" points="90,50 80,50"></polygon>
+                                    <polygon class="poly" points="80,80 70,70"></polygon>
+                                </svg>
+                            </div>
+                        </div>
+                        <p>Copyright &copy; 2024 | All Rights Reserved.</p>
+                    </div>
+                </div>
+                <a href="#home-page">
+                    <div class="buttonarrow">
+                        <svg class="svgIcon" viewBox="0 0 384 512">
+                            <path d="M214.6 41.4c-12.5-12.5-32.8-12.5-45.3 0l-160 160c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 141.2V448c0 17.7 14.3 32 32 32s32-14.3 32-32V141.2L329.4 246.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3l-160-160z"></path>
+                        </svg>
+                    </div>
+                </a>
+            </footer>
+
+            <script type="text/javascript">
+                /* JavaScript to Page loader */
+                window.onload = function() {
+                    // Set a timeout to hide the loader after 1 seconds
+                    setTimeout(function(){
+                        document.getElementById('loader').style.display = 'none';
+                        document.getElementById('content').style.display = 'block';
+                    }, 1000);
+                }
+                
+                /* JavaScript to Sticky Navbar on Scroll */           
+                $(document).ready(function () {
+                    $(window).scroll(function () {
+                        if ($(this).scrollTop() > 550) {
+                            $('.navbar').addClass('solid');
+                            $('.back-to-top').addClass('visible');
+                        } else {
+                            $('.navbar').removeClass('solid');
+                            $('.back-to-top').removeClass('visible');
+                        }
+                    });
+                });
+
+                /* JavaScript to Smooth Scrolling */
+                $(document).ready(function () {
+                    $("a").on('click', function (event) {
+                        if (this.hash !== "") {
+                            event.preventDefault();
+                            var hash = this.hash;
+                            $('html, body').animate({
+                                scrollTop: $(hash).offset().top
+                            }, 800, function () {
+                                window.location.hash = hash;
+                            });
+                        }
+                    });
+                });
+
+                /* JavaScript to Dark Mode Toggle */
+                const themeToggle = document.getElementById('theme');
+                const setTheme = (isDark) => {
+                    if (isDark) {
+                        document.body.style.backgroundColor = 'var(--bg-light)';
+                        document.body.style.color = 'var(--text-light)';
+                    } else {
+                        document.body.style.backgroundColor = 'var(--bg-dark)';
+                        document.body.style.color = 'var(--text-dark)';
+                    }
+                };
+                setTheme(true);
+                themeToggle.addEventListener('change', (event) => {
+                    setTheme(event.target.checked);
+                });
+            </script>
+        </div>
+    </body>
+</html>
