@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+section {
+    margin: 20px auto;
+    padding: 20px;
+    width: 90%;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    page-break-inside: avoid;
+}
+
+h2 {
+    border-bottom: 2px solid #333;
+}
+
+ul {
+    margin-left: 10px;
+}
+
+ul li {
+    margin: 5px 0;
+    border-radius: 4px;
+}
+
+.link{
+    color: dodgerblue;
+}
+
+footer {
+    padding: 10px;
+    color: #fff;
+    bottom: 0;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #5cb6f9;
+    gap: 10px;
+}
+
+a.no-underline {
+    text-decoration: none;
+}
+
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 14px 18px;
+    gap: 25px;
+    font-size: 0.7em;
+    letter-spacing: 2px;
+    color: white;
+    cursor: pointer;
+    background: linear-gradient(to right, rgb(59, 59, 59), rgb(34, 34, 34));
+    border-radius: 8px;
+    border: 1px solid rgb(65, 65, 65);
+    transition-duration: 0.3s;
+}
+
+button:hover {
+    transition-duration: 0.3s;
+    box-shadow: 0px 0px 2px rgb(185, 185, 185), 0px 0px 10px rgb(97, 97, 97);
+}
+
+.enter-button {
+    gap: 10px;
+}
+
+.arrow {
+    height: 10px;
+}
+
+.enter-button:active {
+    transform: scale(0.95);
+}
+
+@media print {
+    footer {
+        position: relative;
+        bottom: 0;
+    }
+}
