@@ -1457,10 +1457,6 @@ li:hover::after {
     html {
         font-size: 60%;
     }
-
-    .svg {
-        height: 120px;
-    }
     
     #picture1 {
         position: absolute;
