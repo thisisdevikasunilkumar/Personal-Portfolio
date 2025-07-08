@@ -59,6 +59,25 @@ function ThemeToggle() {
 document.addEventListener('DOMContentLoaded', ThemeToggle);
 
 
+/* JavaScript to Calculate Age */
+function calculateAge(dobString) {
+    const dob = new Date(dobString);
+    const today = new Date();
+
+    let age = today.getFullYear() - dob.getFullYear();
+    const m = today.getMonth() - dob.getMonth();
+
+    if (m < 0 || (m === 0 && today.getDate() < dob.getDate())) {
+        age--;
+    }
+    return age;
+}
+document.addEventListener('DOMContentLoaded', function () {
+    document.getElementById('age').textContent = calculateAge('2002-03-12');
+});
+
+
+
 /* JavaScript to Load the like count from localStorage or default to 500 */
 function LikeCount() {
     let likeCount = localStorage.getItem('likeCount') || 500;
