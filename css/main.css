@@ -537,10 +537,10 @@ body {
     width: 90%;
 }
 .progress-line .asp {
-    width: 60%;
+    width: 80%;
 }
 .progress-line .c {
-    width: 60%;
+    width: 70%;
 }
 .progress-line .sql {
     width: 80%;
@@ -549,7 +549,7 @@ body {
     width: 70%;
 }
 .progress-line .java {
-    width: 60%;
+    width: 70%;
 }
 .progress-line .mysql {
     width: 80%;
@@ -585,10 +585,10 @@ body {
     content: "90%";
 }
 .progress-line .asp::after {
-    content: "60%";
+    content: "80%";
 }
 .progress-line .c::after {
-    content: "60%";
+    content: "70%";
 }
 .progress-line .sql::after {
     content: "80%";
@@ -597,7 +597,7 @@ body {
     content: "70%";
 }
 .progress-line .java::after {
-    content: "60%";
+    content: "70%";
 }
 .progress-line .mysql::after {
     content: "80%";
@@ -719,6 +719,47 @@ body {
 
 .right-side {
     flex: 1;
+}
+
+.cakeWrapper {
+  display: flex;
+  align-items: center;
+  gap: 12px; /* spacing between cake and text */
+}
+
+.locationWrapper {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.locationLoader {
+  width: 15.5px;
+  height: 15.5px;
+  position: relative;
+  transform: rotate(45deg);
+}
+
+.locationLoader:before,
+.locationLoader:after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 50% 50% 0 50%;
+  background: #0000;
+  background-image: radial-gradient(circle 3.5px at 50% 50%, #0000 94%, #ff4747);
+}
+
+.locationLoader:after {
+  animation: pulse-ytk0dhmd 1s infinite;
+  transform: perspective(336px) translateZ(0px);
+}
+
+@keyframes pulse-ytk0dhmd {
+  to {
+    transform: perspective(336px) translateZ(168px);
+    opacity: 0;
+  }
 }
 
 
