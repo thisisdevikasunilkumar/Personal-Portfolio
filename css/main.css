@@ -108,7 +108,7 @@ header {
     position: fixed;
     width: 100%;
     z-index: 500;
-    top: 0;
+    top: 50px;
 }
 
 .navbar-container {
@@ -121,6 +121,7 @@ header {
 
 /*Scroll*/
 .navbar.solid {
+    top: 0;
     background-color: #8cd5fe;
     transition: background-color 1s ease 0s;
     box-shadow: 0 0 4px rgb(7 55 74 / 20%);
@@ -534,25 +535,25 @@ body {
 }
 
 .progress-line .html {
-    width: 90%;
+    width: 100%;
 }
 .progress-line .asp {
     width: 80%;
 }
 .progress-line .c {
-    width: 70%;
+    width: 75%;
 }
 .progress-line .sql {
-    width: 80%;
+    width: 85%;
 }
 .progress-line .oop {
     width: 70%;
 }
 .progress-line .java {
-    width: 70%;
+    width: 75%;
 }
 .progress-line .mysql {
-    width: 80%;
+    width: 85%;
 }
 
 .bar .progress-line span::before {
@@ -582,25 +583,25 @@ body {
 }
 
 .progress-line .html::after {
-    content: "90%";
+    content: "100%";
 }
 .progress-line .asp::after {
     content: "80%";
 }
 .progress-line .c::after {
-    content: "70%";
+    content: "75%";
 }
 .progress-line .sql::after {
-    content: "80%";
+    content: "85%";
 }
 .progress-line .oop::after {
     content: "70%";
 }
 .progress-line .java::after {
-    content: "70%";
+    content: "75%";
 }
 .progress-line .mysql::after {
-    content: "80%";
+    content: "85%";
 }
 
 
