@@ -538,7 +538,7 @@ body {
     width: 100%;
 }
 .progress-line .asp {
-    width: 80%;
+    width: 85%;
 }
 .progress-line .c {
     width: 75%;
@@ -547,7 +547,7 @@ body {
     width: 85%;
 }
 .progress-line .oop {
-    width: 70%;
+    width: 75%;
 }
 .progress-line .java {
     width: 75%;
@@ -586,7 +586,7 @@ body {
     content: "100%";
 }
 .progress-line .asp::after {
-    content: "80%";
+    content: "85%";
 }
 .progress-line .c::after {
     content: "75%";
@@ -595,7 +595,7 @@ body {
     content: "85%";
 }
 .progress-line .oop::after {
-    content: "70%";
+    content: "75%";
 }
 .progress-line .java::after {
     content: "75%";
