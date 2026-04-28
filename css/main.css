@@ -1525,7 +1525,14 @@ li:hover::after {
     #portfolio-2 {
         display: none;
     }
-    
+
+    .navbar {
+        position: fixed;
+        width: 100%;
+        z-index: 500;
+        top: 1px;
+    }
+
     .menu-items {
         display: none;
         flex-direction: row;
